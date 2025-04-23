@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Firebase Site</title>
+</head>
+<body>
+  <h1>Hello from Firebase + GitHub Pages!</h1>
+
+  <!-- Firebase SDK -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-analytics.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyADxu9T37ZorTqyrz82UjBhDrtpj7hXhe",
+      authDomain: "dominikphotofficial.firebaseapp.com",
+      projectId: "dominikphotofficial",
+      storageBucket: "dominikphotofficial.appspot.com",
+      messagingSenderId: "949786182676",
+      appId: "1:949786182676:web:ee213ba364fb381d05d301",
+      measurementId: "G-RRD25E52LK"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</body>
+</html>
